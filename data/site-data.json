@@ -1,0 +1,556 @@
+{
+  "company": {
+    "name": "SpaceSolarSolutions",
+    "tagline": "Powering the Future with Solar Energy",
+    "location": "Lucknow, India",
+    "phone": "+91 79860 57717",
+    "email": "info@spacesolarsolutions.com",
+    "address": "123 Solar Street, Lucknow, India",
+    "workingHours": "Monday - Saturday: 09:00 AM - 09:00 PM",
+    "socialMedia": {
+      "facebook": "#",
+      "twitter": "#",
+      "linkedin": "#",
+      "instagram": "#"
+    }
+  },
+  "navigation": [
+    {
+      "name": "Home",
+      "href": "/"
+    },
+    {
+      "name": "About",
+      "href": "/about"
+    },
+    {
+      "name": "Services",
+      "href": "/services"
+    },
+    {
+      "name": "Projects",
+      "href": "/projects"
+    },
+    {
+      "name": "Contact",
+      "href": "/contact"
+    }
+  ],
+  "home": {
+    "hero": {
+      "title": "Pioneers Of Solar And Renewable Energy",
+      "description": "Delivering innovative, efficient, and sustainable solar solutions to empower businesses and communities, driving a brighter, greener future.",
+      "primaryCta": "Get A Free Quote",
+      "secondaryCta": "Our Services",
+      "image": "/main_img.jpg"
+    },
+    "stats": [
+      {
+        "value": 200,
+        "label": "Happy Customers",
+        "suffix": "+"
+      },
+      {
+        "value": 50,
+        "label": "Projects Completed",
+        "suffix": "+"
+      },
+      {
+        "value": 1500,
+        "label": "Solar Panels Installed",
+        "suffix": "+"
+      },
+      {
+        "value": 10,
+        "label": "Years of Experience",
+        "suffix": "+"
+      }
+    ],
+    "services": {
+      "title": "Our Services",
+      "description": "We offer a comprehensive range of solar and renewable energy services to meet the diverse needs of our residential and commercial clients.",
+      "items": [
+        {
+          "title": "Solar Panel Installation",
+          "description": "Professional installation of high-efficiency solar panels for residential and commercial properties."
+        },
+        {
+          "title": "Solar Mounting Structures Supply",
+          "description": "We provide durable, reliable solar mounting structures for secure panel installation."
+        },
+        {
+          "title": "Solar Panel Procurement & Supply",
+          "description": "We source and deliver top-tier solar panels at competitive prices."
+        },
+        {
+          "title": "Solar Panel Cleaning & Maintenance",
+          "description": "We ensure clean, efficient panels for optimal solar energy production."
+        },
+        {
+          "title": "Solar System Inspection & Repairs",
+          "description": "Regular maintenance and prompt repair services to ensure optimal performance of your solar system."
+        },
+        {
+          "title": "Annual Maintenance Contracts (AMC)",
+          "description": "A comprehensive yearly maintenance to maximize solar system efficiency."
+        }
+      ]
+    },
+    "projects": {
+      "title": "Our Projects",
+      "description": "Explore our portfolio of completed solar and renewable energy projects, showcasing our expertise and commitment to sustainable solutions.",
+      "categories": [
+        {
+          "value": "all",
+          "label": "All"
+        },
+        {
+          "value": "residential",
+          "label": "Residential"
+        },
+        {
+          "value": "commercial",
+          "label": "Commercial"
+        },
+        {
+          "value": "solar-panels",
+          "label": "Solar Panels"
+        }
+      ],
+      "items": [
+        {
+          "id": 1,
+          "title": "Residential Solar Installation",
+          "category": "residential",
+          "image": "/residential_solar_installation.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Commercial Solar Farm",
+          "category": "commercial",
+          "image": "/commercial_solar_farm.png"
+        },
+        {
+          "id": 3,
+          "title": "Solar Panel Maintenance",
+          "category": "solar-panels",
+          "image": "/solar_panel_maintenance.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Rooftopp Solar Array",
+          "category": "residential",
+          "image": "/rooftop_solar_array.jpg"
+        },
+        {
+          "id": 5,
+          "title": "Industrial Energy Solution",
+          "category": "commercial",
+          "image": "/industrial_energy_solution.jpg"
+        },
+        {
+          "id": 6,
+          "title": "Solar Panel Upgrade",
+          "category": "solar-panels",
+          "image": "/solar_panel_upgrade.jpg"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "What Our Clients Say",
+      "description": "Don't just take our word for it. Here's what our satisfied clients have to say about our solar solutions.",
+      "items": [
+        {
+          "id": 1,
+          "name": "John Smith",
+          "role": "Homeowner",
+          "company": "Residential Client",
+          "image": "/placeholder.svg?height=100&width=100",
+          "content": "The team at SpaceSolarSolutions was professional from start to finish. They explained everything clearly and installed our solar panels efficiently. We're now saving significantly on our energy bills!",
+          "rating": 5
+        },
+        {
+          "id": 2,
+          "name": "Sarah Johnson",
+          "role": "Operations Manager",
+          "company": "ABC Manufacturing",
+          "image": "/placeholder.svg?height=100&width=100",
+          "content": "Implementing solar energy in our manufacturing facility was a big decision. SpaceSolarSolutions guided us through the entire process and delivered exceptional results. Our energy costs have decreased by 40%.",
+          "rating": 5
+        },
+        {
+          "id": 3,
+          "name": "Michael Chen",
+          "role": "Property Developer",
+          "company": "Green Living Estates",
+          "image": "/placeholder.svg?height=100&width=100",
+          "content": "We've worked with SpaceSolarSolutions on multiple residential developments. Their expertise in solar technology and commitment to quality has made them our go-to partner for renewable energy solutions.",
+          "rating": 4
+        }
+      ]
+    }
+  },
+  "about": {
+    "pageHeader": {
+      "title": "About Us",
+      "description": "Learn about our mission and the team behind our solar solutions"
+    },
+    "companyOverview": {
+      "title": "Our Mission",
+      "content": [
+        "At SpaceSolarSolutions, we are committed to accelerating the world's transition to sustainable energy. Founded in 2013, we have been at the forefront of the renewable energy revolution, providing innovative solar solutions to homes and businesses across the country.",
+        "Our mission is to make clean, renewable energy accessible to everyone. We believe that by harnessing the power of the sun, we can create a more sustainable future for generations to come."
+      ],
+      "features": [
+        "Certified solar energy professionals",
+        "High-quality, durable solar panels",
+        "Customized solutions for every client",
+        "Comprehensive after-sales support",
+        "Environmentally conscious practices",
+        "Transparent pricing and no hidden fees"
+      ],
+      "image": "/residential_solar_installation.jpg"
+    },
+    "team": {
+      "title": "Meet Our Team",
+      "description": "Our team of experts is passionate about renewable energy and committed to providing the best solar solutions for our clients.",
+      "members": [
+        {
+          "name": "Alex Johnson",
+          "role": "CEO & Founder",
+          "image": "/placeholder.svg?height=300&width=300",
+          "bio": "With over 15 years of experience in renewable energy, Alex leads our company's vision and strategy.",
+          "social": {
+            "linkedin": "#",
+            "twitter": "#"
+          }
+        },
+        {
+          "name": "Sarah Chen",
+          "role": "Technical Director",
+          "image": "/placeholder.svg?height=300&width=300",
+          "bio": "Sarah oversees all technical aspects of our solar installations, ensuring the highest quality standards.",
+          "social": {
+            "linkedin": "#"
+          }
+        },
+        {
+          "name": "Michael Rodriguez",
+          "role": "Head of Operations",
+          "image": "/placeholder.svg?height=300&width=300",
+          "bio": "Michael manages our day-to-day operations, focusing on efficiency and customer satisfaction.",
+          "social": {
+            "linkedin": "#",
+            "twitter": "#"
+          }
+        },
+        {
+          "name": "Emily Patel",
+          "role": "Customer Relations Manager",
+          "image": "/placeholder.svg?height=300&width=300",
+          "bio": "Emily ensures that every client receives personalized attention and exceptional service.",
+          "social": {
+            "linkedin": "#"
+          }
+        }
+      ]
+    }
+  },
+  "services": {
+    "pageHeader": {
+      "title": "Our Services",
+      "description": "Comprehensive solar and renewable energy solutions"
+    },
+    "servicesList": [
+      {
+        "id": 1,
+        "title": "Solar Panel Installation",
+        "description": "Our professional team handles the entire solar panel installation process, from initial assessment to final setup. We use high-quality panels and equipment to ensure optimal performance and longevity.",
+        "features": [
+          "Comprehensive site assessment",
+          "Custom system design",
+          "Professional installation",
+          "Permits and paperwork handling"
+        ],
+        "image": "/placeholder.svg?height=400&width=600"
+      },
+      {
+        "id": 2,
+        "title": "Solar System Maintenance",
+        "description": "Regular maintenance is essential for keeping your solar system running efficiently. Our maintenance services include thorough inspections, cleaning, and repairs to maximize your system's lifespan and performance.",
+        "features": [
+          "Regular panel cleaning",
+          "System performance monitoring",
+          "Inverter maintenance",
+          "Wiring and connection checks",
+          "Efficiency optimization"
+        ],
+        "image": "/placeholder.svg?height=400&width=600"
+      },
+      {
+        "id": 3,
+        "title": "Energy Consultation",
+        "description": "Our energy experts provide personalized consultations to help you understand your energy needs and how solar can benefit your specific situation. We analyze your current energy usage and recommend the best solutions.",
+        "features": [
+          "Energy usage analysis",
+          "ROI and savings calculations",
+          "Available incentives and rebates",
+          "Financing options",
+          "Custom solution recommendations"
+        ],
+        "image": "/placeholder.svg?height=400&width=600"
+      },
+      {
+        "id": 4,
+        "title": "Residential Solar Solutions",
+        "description": "Transform your home with our residential solar solutions. We design and install custom solar systems that reduce your energy bills and carbon footprint while increasing your property value.",
+        "features": [
+          "Rooftop solar panel installation",
+          "Battery storage solutions",
+          "Smart home integration",
+          "Net metering setup",
+          "Monitoring systems"
+        ],
+        "image": "/placeholder.svg?height=400&width=600"
+      },
+      {
+        "id": 5,
+        "title": "Commercial Solar Projects",
+        "description": "Our commercial solar solutions help businesses reduce operating costs and demonstrate their commitment to sustainability. We handle large-scale installations for offices, warehouses, and industrial facilities.",
+        "features": [
+          "Large-scale system design",
+          "Project management",
+          "Business incentive applications",
+          "Power purchase agreements",
+          "Commercial energy storage"
+        ],
+        "image": "/placeholder.svg?height=400&width=600"
+      }
+    ],
+    "solarModel": {
+      "title": "Interactive Solar Technology",
+      "description": "Explore our solar panel technology in 3D. Rotate and zoom to see the details of our high-efficiency panels."
+    }
+  },
+  "projects": {
+    "pageHeader": {
+      "title": "Our Projects",
+      "description": "Explore our portfolio of completed solar installations"
+    },
+    "filters": [
+      {
+        "value": "all",
+        "label": "All Projects"
+      },
+      {
+        "value": "residential",
+        "label": "Residential"
+      },
+      {
+        "value": "commercial",
+        "label": "Commercial"
+      },
+      {
+        "value": "solar-panels",
+        "label": "Solar Panels"
+      }
+    ],
+    "items": [
+      {
+        "id": 1,
+        "title": "Modern Home Solar Installation",
+        "description": "A 10kW solar system installation for a modern residential property, providing 100% of the home's energy needs.",
+        "category": "residential",
+        "image": "/placeholder.svg?height=400&width=600",
+        "location": "Lucknow, India",
+        "date": "January 2023"
+      },
+      {
+        "id": 2,
+        "title": "Commercial Office Building",
+        "description": "Installation of 50kW solar array on a commercial office building, reducing energy costs by 40%.",
+        "category": "commercial",
+        "image": "/placeholder.svg?height=400&width=600",
+        "location": "Delhi, India",
+        "date": "March 2023"
+      },
+      {
+        "id": 3,
+        "title": "Solar Panel Maintenance Project",
+        "description": "Comprehensive maintenance and optimization of an existing solar panel system to improve efficiency.",
+        "category": "solar-panels",
+        "image": "/placeholder.svg?height=400&width=600",
+        "location": "Mumbai, India",
+        "date": "April 2023"
+      },
+      {
+        "id": 4,
+        "title": "Residential Community Solar",
+        "description": "A shared solar installation for a community of 15 homes, providing clean energy to multiple families.",
+        "category": "residential",
+        "image": "/placeholder.svg?height=400&width=600",
+        "location": "Bangalore, India",
+        "date": "June 2023"
+      },
+      {
+        "id": 5,
+        "title": "Manufacturing Facility",
+        "description": "Large-scale 200kW solar installation for a manufacturing facility, significantly reducing operational costs.",
+        "category": "commercial",
+        "image": "/placeholder.svg?height=400&width=600",
+        "location": "Chennai, India",
+        "date": "August 2023"
+      },
+      {
+        "id": 6,
+        "title": "Solar Panel Upgrade",
+        "description": "Upgrading outdated solar panels to high-efficiency models, increasing energy production by 30%.",
+        "category": "solar-panels",
+        "image": "/placeholder.svg?height=400&width=600",
+        "location": "Hyderabad, India",
+        "date": "October 2023"
+      },
+      {
+        "id": 7,
+        "title": "Luxury Villa Installation",
+        "description": "Custom solar solution for a luxury villa with integrated battery storage and smart home controls.",
+        "category": "residential",
+        "image": "/placeholder.svg?height=400&width=600",
+        "location": "Goa, India",
+        "date": "November 2023"
+      },
+      {
+        "id": 8,
+        "title": "Shopping Mall Solar Project",
+        "description": "Comprehensive solar installation for a large shopping mall, covering 60% of their energy requirements.",
+        "category": "commercial",
+        "image": "/placeholder.svg?height=400&width=600",
+        "location": "Pune, India",
+        "date": "December 2023"
+      },
+      {
+        "id": 9,
+        "title": "Solar Panel Cleaning Service",
+        "description": "Professional cleaning and maintenance of solar panels for a large residential community.",
+        "category": "solar-panels",
+        "image": "/placeholder.svg?height=400&width=600",
+        "location": "Kolkata, India",
+        "date": "February 2024"
+      }
+    ]
+  },
+  "contact": {
+    "pageHeader": {
+      "title": "Contact Us",
+      "description": "Get in touch for a free consultation"
+    },
+    "contactDetails": {
+      "title": "Contact Information",
+      "address": {
+        "label": "Our Location",
+        "value": "123 Solar Street, Lucknow, India"
+      },
+      "phone": {
+        "label": "Phone Number",
+        "value": "+91 79860 57717"
+      },
+      "email": {
+        "label": "Email Address",
+        "value": "info@spacesolarsolutions.com"
+      },
+      "hours": {
+        "label": "Working Hours",
+        "value": "Monday - Saturday: 09:00 AM - 09:00 PM",
+        "additional": "Sunday: Closed"
+      }
+    },
+    "contactForm": {
+      "title": "Send Us a Message",
+      "successMessage": {
+        "title": "Thank You!",
+        "description": "Your message has been received. We'll get back to you shortly."
+      },
+      "subjects": [
+        {
+          "value": "general",
+          "label": "General Inquiry"
+        },
+        {
+          "value": "quote",
+          "label": "Request a Quote"
+        },
+        {
+          "value": "support",
+          "label": "Technical Support"
+        },
+        {
+          "value": "feedback",
+          "label": "Feedback"
+        }
+      ]
+    },
+    "mapSection": {
+      "title": "Find Us",
+      "description": "Visit our office to discuss your solar energy needs in person.",
+      "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227748.38256295594!2d80.80242945!3d26.848522749999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd991f32b16b%3A0x93ccba8909978be7!2sLucknow%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1649339023219!5m2!1sen!2sin"
+    }
+  },
+  "footer": {
+    "description": "Delivering innovative, efficient, and sustainable solar solutions to empower businesses and communities, driving a brighter, greener future.",
+    "quickLinks": [
+      {
+        "name": "Home",
+        "href": "/"
+      },
+      {
+        "name": "About Us",
+        "href": "/about"
+      },
+      {
+        "name": "Services",
+        "href": "/services"
+      },
+      {
+        "name": "Projects",
+        "href": "/projects"
+      },
+      {
+        "name": "Contact",
+        "href": "/contact"
+      }
+    ],
+    "services": [
+      {
+        "name": "Solar Panel Installation",
+        "href": "/services"
+      },
+      {
+        "name": "Solar System Maintenance",
+        "href": "/services"
+      },
+      {
+        "name": "Energy Consultation",
+        "href": "/services"
+      },
+      {
+        "name": "Residential Solutions",
+        "href": "/services"
+      },
+      {
+        "name": "Commercial Projects",
+        "href": "/services"
+      }
+    ],
+    "copyright": "© 2025 SpaceSolarSolutions. All rights reserved.",
+    "legalLinks": [
+      {
+        "name": "Privacy Policy",
+        "href": "/privacy-policy"
+      },
+      {
+        "name": "Terms of Service",
+        "href": "/terms-of-service"
+      }
+    ]
+  }
+}
