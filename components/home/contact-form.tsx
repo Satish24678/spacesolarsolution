@@ -32,16 +32,29 @@ export default function ContactForm() {
     },
   })
 
-  function onSubmit(data: FormValues) {
+  async function onSubmit(data: FormValues) {
     setIsSubmitting(true)
 
-    // Simulate form submission
-    setTimeout(() => {
-      console.log(data)
+    try {
+      const response = await fetch('/api/send', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ ...data, phone: 'Not provided', subject: 'quote' }),
+      })
+
+      if (response.ok) {
+        setIsSubmitted(true)
+        form.reset()
+      } else {
+        console.error('Error sending quote request')
+      }
+    } catch (error) {
+      console.error('Error:', error)
+    } finally {
       setIsSubmitting(false)
-      setIsSubmitted(true)
-      form.reset()
-    }, 1500)
+    }
   }
 
   return (
