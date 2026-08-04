@@ -1,6 +1,4 @@
-import { renderToStaticMarkup } from 'react-dom/server';
 import nodemailer from 'nodemailer';
-import { EmailTemplate } from '../../../components/email-template';
 
 const NOTIFY_EMAIL = 'spacesolarsolution@gmail.com';
 
@@ -10,6 +8,20 @@ const SUBJECT_LABELS: Record<string, string> = {
     support: 'Technical Support',
     feedback: 'Feedback',
 };
+
+function buildEmailHtml({ name, email, phone, subjectLabel, message }: {
+    name: string; email: string; phone: string; subjectLabel: string; message: string;
+}) {
+    return `
+        <div>
+            <h1>New message from ${name}</h1>
+            <p><strong>Email:</strong> ${email}</p>
+            <p><strong>Phone:</strong> ${phone}</p>
+            <p><strong>Subject:</strong> ${subjectLabel}</p>
+            <p><strong>Message:</strong> ${message}</p>
+        </div>
+    `;
+}
 
 async function sendEmailNotification({ name, email, phone, subject, message }: {
     name: string; email: string; phone: string; subject: string; message: string;
@@ -33,9 +45,7 @@ async function sendEmailNotification({ name, email, phone, subject, message }: {
         to: NOTIFY_EMAIL,
         replyTo: email,
         subject: `New ${subjectLabel}: ${name}`,
-        html: renderToStaticMarkup(
-            EmailTemplate({ firstName: name, email, phone, subject: subjectLabel, message })
-        ),
+        html: buildEmailHtml({ name, email, phone, subjectLabel, message }),
     });
 }
 
